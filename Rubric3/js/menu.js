@@ -1,11 +1,11 @@
-var TitleChange = document.getElementById("firstTitile");
+var TitleChange = document.getElementById("firstTitle");
 TitleChange.setAttribute("style", "color: purple");
 
 var totalChildren = document.getElementById("navlinks");
 console.log (totalChildren.childNodes.length);
 
-var totalPtags = document.getElementById("li");
-console.log ("That are " + totalChildren.length +" menu items on this page.");
+var totalLitags = document.getElementById("li");
+console.log ("That are " + totalLitags.length +" menu items on this page.");
 
 var myMain = document.getElementById("main");
 var newPara = document.createElement("p");
